@@ -23,6 +23,15 @@ public class CountVowels {
         int vowelCount = countVowels(sentence);
         System.out.println("Number of vowels in a string: " + vowelCount);
         
-    
+          scanner.close();
     }
-}
+
+    public static int countVowels(String sentence) {
+        // Promt user to input text, count vowels and display results
+        sentence = sentence.toLowerCase();
+        
+        int count = 0;
+        
+    
+    
+
