@@ -32,6 +32,19 @@ public class CountVowels {
         
         int count = 0;
         
+        //Loop the characters in the string
+        for (int i = 0; i < sentence.length(); i++) {
+            char ch = sentence.charAt(i);
+            // Verify if each character is a vowel
+            if ("aeiou".indexOf(ch) != -1) {
+                count++;
+            }
+        }
+        
+        return count;
+    }
+
+}     
     
     
 
